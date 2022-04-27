@@ -1,3 +1,15 @@
+#navbarNav {
+  font-family: 'Manrope', sans-serif;
+  text-transform: uppercase;
+  size: 15px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.video-container {
+   filter: brightness(75%);
+}
+
 p {
   font-family: 'Manrope', sans-serif;
   size: 16px;
@@ -51,20 +63,17 @@ h1 {
 }
 
 
-.video-container {
-  width: 100%
-  position: relative;
-}
-
-.overlay {
+.slogan {
     position:absolute;
     top:50%;
     left:0;
     z-index:1;
-  	font-size: 20px;
+  	font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
   	font-style: normal;
     color: white;
   	width:100%;
-    text-align:center;
+    text-align: center;
   	vertical-align: middle;
 }
