@@ -4,75 +4,114 @@
     <title>LOGMC Upcoming Events</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
+    <link href="stylesheet.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
 
-  <div class="header">
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="height: 100px; color: black;">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="src/logo.png" alt="logo" width="150" height="150">
-        </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="src/logo.png" alt="logo" width="150px" height="150px" id="events">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-      </div>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">watch</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">ministries</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">connect</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">give</a>
-            </li>
-          </ul>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">watch</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ministries</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">connect</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">give</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
-  </div>
+      </nav>
+    </header>
 
-    <div class="container">
+
+    <script>
+        window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+
+        document.getElementById("navbar").style.background = "white";
+      } else {
+
+        document.getElementById("navbar").style.background = "none";
+      }
+    }
+    </script>
+
+    <div class="container" id="upcoming">
       <div class="row">
-        <div class="col-sm-12 border">
-          Upcoming Events
+        <div class="col-sm-12">
+          <h1>Upcoming Events</h1>
         </div>
       </div>
     </div>
 
     <div class="container border">
       <div class="row">
-        <div class="col-sm-6 border">
-          image
+        <div class="col-sm-6 px-0 border">
+          <img src="src/prayer2.jpg" width="100%" height="100%" alt="prayer">
         </div>
-          <div class="col-sm-6 border">
-            text
-          </div>
-          <div class="col-sm-6 border">
-            image
-          </div>
-            <div class="col-sm-6 border">
-              text
-            </div>
-            <div class="col-sm-6 border">
-              image
-            </div>
-              <div class="col-sm-6 border">
-                text
+          <div class="col-sm-6 px-0 border">
+            <p4>ladies prayer</p4>
+            <p5>May 1, 2022 • 6:00pm</p5>
+            <div class="row">
+              <div class="col-sm">
+                <a href="upcomingevents.html" class="button">register</a>
               </div>
-              <div class="col-sm-6 border">
-                image
-              </div>
-                <div class="col-sm-6 border">
-                  text
+            </div>
+          </div>
+            <div class="col-sm-6 px-0 border">
+              <img src="src/baptism2.jpg" width="100%" height="100%" alt="baptism">
+            </div>
+              <div class="col-sm-6 px-0 border">
+                <p4>baptism</p4>
+                <p5>May 21, 2022 • 6:00pm • church backyard</p5>
+                <div class="row">
+                  <div class="col-sm">
+                    <a href="upcomingevents.html" class="button">register</a>
+                  </div>
                 </div>
+              </div>
+              <div class="col-sm-6 px-0 border">
+                <img src="src/cabin.jpg" width="100%" height="100%" alt="cabin">
+              </div>
+                <div class="col-sm-6 px-0 border">
+                  <p4>ladies retreat</p4>
+                  <p5>september 24–26, 2022 • mount hermon</p5>
+                  <div class="row">
+                    <div class="col-sm">
+                      <a href="upcomingevents.html" class="button">register</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 px-0 border">
+                  <img src="src/study.jpg" width="100%" height="100%" alt="study">
+                </div>
+                  <div class="col-sm-6 px-0 border">
+                    <p4>bible sttudy</p4>
+                    <p5>fridays • 7:00pm • chapel</p5>
+                    <div class="row">
+                      <div class="col-sm">
+                        <a href="upcomingevents.html" class="button">register</a>
+                      </div>
+                    </div>
+                  </div>
       </div>
     </div>
 

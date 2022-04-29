@@ -1,16 +1,11 @@
-
-.navbar {
-  height: 100px;
-}
-
 #navbarNav {
   font-family: 'Manrope', sans-serif;
   text-transform: uppercase;
+  font-weight: 700;
   size: 15px;
   font-weight: lighter;
   letter-spacing: 2px;
 }
-
 
 .video-container {
    filter: brightness(75%);
@@ -38,6 +33,7 @@ h1 {
   color: #ffff;
   size: 20px;
   font-weight: 600;
+  letter-spacing: 2px;
   text-decoration: none;
 }
 
@@ -68,7 +64,6 @@ h1 {
   line-height: 20px;
 }
 
-
 .slogan {
     position:absolute;
     top:50%;
@@ -82,4 +77,20 @@ h1 {
   	width:100%;
     text-align: center;
   	vertical-align: middle;
+}
+
+#upcoming {
+  width: 100%;
+  height: 200px;
+  color: white;
+  background-color: black;
+}
+
+.p4 {
+  font-family: 'Manrope', sans-serif;
+  text-transform: uppercase;
+  size: 20px;
+  font-weight: normal;
+  letter-spacing: 5px;
+  line-height: 20px;
 }
