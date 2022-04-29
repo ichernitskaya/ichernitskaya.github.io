@@ -1,3 +1,8 @@
+
+.navbar {
+  height: 100px;
+}
+
 #navbarNav {
   font-family: 'Manrope', sans-serif;
   text-transform: uppercase;
@@ -5,6 +10,7 @@
   font-weight: lighter;
   letter-spacing: 2px;
 }
+
 
 .video-container {
    filter: brightness(75%);
@@ -76,8 +82,4 @@ h1 {
   	width:100%;
     text-align: center;
   	vertical-align: middle;
-}
-
-.pastor-col-sm-6 {
-  align: right;
 }
