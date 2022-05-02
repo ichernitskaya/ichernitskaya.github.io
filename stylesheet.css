@@ -6,6 +6,28 @@
   font-weight: lighter;
   letter-spacing: 2px;
 }
+.navbar {
+  padding: 0px 70px 0px 70px;
+}
+#navbarNav {
+  text-align: right;
+}
+.video-container{
+  margin-bottom: 100px
+}
+
+.container {
+  margin-bottom: 100px;
+}
+
+#carouselExampleInterval {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+footer {
+  padding-bottom: 0px;
+}
 
 .video-container {
    filter: brightness(75%);
@@ -95,7 +117,7 @@ h1 {
   background-color: black;
 }
 
-#events {
+.events {
   width: 100%;
   height: 100%;
 }
@@ -126,3 +148,8 @@ top:0;
 height:100%;
 width: 100%;
 position:absolute;
+}
+
+iframe{
+    border-width: 0px;
+}
