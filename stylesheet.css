@@ -11,6 +11,15 @@
    filter: brightness(75%);
 }
 
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+video {
+  width: 100% !important;
+  height: auto !important;
+}
 p {
   font-family: 'Manrope', sans-serif;
   size: 16px;
@@ -42,8 +51,8 @@ h1 {
   text-transform: uppercase;
   size: 30px;
   font-weight: 700;
-  letter-spacing: 5px;
-  line-height: 20spx;
+  letter-spacing: 2px;
+  line-height: 20px;
 }
 
 .p2 {
@@ -51,7 +60,7 @@ h1 {
   text-transform: uppercase;
   size: 20px;
   font-weight: 600;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   line-height: 20px;
 }
 
@@ -60,7 +69,7 @@ h1 {
   text-transform: uppercase;
   size: 20px;
   font-weight: normal;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   line-height: 20px;
 }
 
@@ -91,6 +100,11 @@ h1 {
   height: 100%;
 }
 
+#youtube {
+  width: 100%;
+  height: auto;
+}
+
 .p4 {
   font-family: 'Manrope', sans-serif;
   text-transform: uppercase;
@@ -99,3 +113,16 @@ h1 {
   letter-spacing: 2px;
   line-height: 20px;
 }
+
+.video-responsive {
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.video-responsive iframe{
+left:0;
+top:0;
+height:100%;
+width: 100%;
+position:absolute;
