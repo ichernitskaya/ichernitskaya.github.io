@@ -6,17 +6,26 @@
   font-weight: lighter;
   letter-spacing: 2px;
 }
+
 .navbar {
   position: fixed;
   background-color: white;
-  height: 100px;
   padding: 0px 70px 0px 70px;
   margin-bottom: 100px;
 }
+
 #navbarNav {
   text-align: right;
 }
 
+.title {
+  padding-top: 150px;
+  padding-bottom: 25px;
+}
+
+.body {
+  padding-bottom: 50px;
+}
 
 .container {
   margin-bottom: 100px;
@@ -26,6 +35,7 @@
   margin-top: 50px;
   margin-bottom: 70px;
 }
+
 
 footer {
   padding-bottom: 0px;
@@ -37,16 +47,15 @@ footer {
 
 .video-container {
   margin-bottom: 100px;
-   filter: brightness(75%);
-   position: relative;
-   text-align: center;
+  filter: brightness(75%);
+  position: relative;
+  text-align: center;
 }
 
 .centered {
   position: absolute;
   top: 50%;
   left: 50%;
-  z-index: 1;
   transform: translate(-50%, -50%);
   font-size: 20px;
   letter-spacing: 5px;
@@ -54,7 +63,7 @@ footer {
 }
 
 .responsive {
-  width: 100%;
+  width: 98%;
   height: auto;
 }
 
