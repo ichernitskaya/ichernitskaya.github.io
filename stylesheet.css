@@ -1,3 +1,5 @@
+/*both pages*/
+
 #navbarNav {
   font-family: 'Manrope', sans-serif;
   text-transform: uppercase;
@@ -18,59 +20,14 @@
   text-align: right;
 }
 
-.title {
-  padding-top: 150px;
-  padding-bottom: 25px;
-}
-
-.body {
-  padding-bottom: 50px;
-}
-
 .container {
   margin-bottom: 100px;
 }
-
-#carouselExampleInterval {
-  margin-top: 50px;
-  margin-bottom: 70px;
-}
-
 
 footer {
   padding-bottom: 0px;
 }
 
-#upcoming {
-  padding: 75px 40px;
-}
-
-.video-container {
-  margin-bottom: 100px;
-  filter: brightness(75%);
-  position: relative;
-  text-align: center;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 20px;
-  letter-spacing: 5px;
-  color: white;
-}
-
-.responsive {
-  width: 98%;
-  height: auto;
-}
-
-video {
-  width: 100% !important;
-  height: auto !important;
-}
 p {
   font-family: 'Manrope', sans-serif;
   size: 16px;
@@ -82,19 +39,6 @@ h1 {
   size: 50px;
   font-weight: 600;
   letter-spacing: 5px;
-}
-
-.button {
-  background-color: #ffbf3c;
-  border-radius: 18px;
-  padding: 5px 45px;
-  font-family: 'Manrope', sans-serif;
-  text-transform: uppercase;
-  color: #ffff;
-  size: 20px;
-  font-weight: 600;
-  letter-spacing: 2px;
-  text-decoration: none;
 }
 
 .p1 {
@@ -124,19 +68,6 @@ h1 {
   line-height: 20px;
 }
 
-#upcoming {
-  width: 100%;
-  height: 200px;
-  color: white;
-  background-color: black;
-}
-
-.events {
-  width: 100%;
-  height: 100%;
-}
-
-
 .p4 {
   font-family: 'Manrope', sans-serif;
   text-transform: uppercase;
@@ -144,6 +75,71 @@ h1 {
   font-weight: 700;
   letter-spacing: 2px;
   line-height: 20px;
+}
+
+.button {
+  background-color: #ffbf3c;
+  border-radius: 18px;
+  padding: 5px 45px;
+  font-family: 'Manrope', sans-serif;
+  text-transform: uppercase;
+  color: #ffff;
+  size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+
+
+
+
+/*index*/
+
+.video-container {
+  margin-bottom: 100px;
+  filter: brightness(75%);
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  letter-spacing: 5px;
+  color: white;
+}
+
+#carouselExampleInterval {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.title {
+  padding-top: 150px;
+  padding-bottom: 25px;
+}
+
+.body {
+  padding-bottom: 50px;
+}
+
+#pastor {
+  float: right;
+  border-radius: 30px;
+}
+
+.responsive {
+  width: 98%;
+  height: auto;
+}
+
+video {
+  width: 100% !important;
+  height: auto !important;
 }
 
 .video-responsive {
@@ -164,4 +160,27 @@ position:absolute;
 
 iframe{
     border-width: 0px;
+}
+
+
+
+
+
+/*upcoming events page*/
+
+#upcoming {
+  width: 100%;
+  height: 200px;
+  color: white;
+  background-color: black;
+  padding: 75px 40px;
+}
+
+.events {
+  width: 100%;
+  height: 100%;
+}
+
+.info {
+  padding-top: 50px;
 }
